@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:monoserrat;
+}
+#score_board{
+    background: #406882;
+    min-width: 40%;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+#score_board .d_y_baslik{
+    float: left;
+    text-align: left;
+    width: 50%;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+#score_board .d_y_xal{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+#score_board #xal{
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    margin-left: 8px;
+}
+#score_board .sayi{
+    float: right;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 500;
+    width: 40%;
+    color: #fff;
+}
